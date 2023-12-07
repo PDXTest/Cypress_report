@@ -12,6 +12,7 @@ const signupobj = new signUpPage()
         cy.fixture('SignupData.json').then((personaldetails) => {            
         signupobj.enterFirstNamenew(personaldetails.fname)
         signupobj.enterLastName(personaldetails.lname)
+        
         })
     })
 

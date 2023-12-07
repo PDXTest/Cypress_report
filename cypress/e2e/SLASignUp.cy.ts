@@ -10,7 +10,7 @@ const signupobj = new signUpPage()
 
 describe('SLA It Sign Up', () => {
 
-  //test cases
+  //test cases need to done
   it('Sign Up', () => {
 
     //launch the application
